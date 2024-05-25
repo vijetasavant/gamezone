@@ -1,0 +1,43 @@
+.game-title {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.game-available {
+  color: green;
+  animation: blinker 1s linear infinite;
+  font-size: 12px !important;
+}
+
+.game-available-soon {
+  color: red;
+  font-size: 12px !important;
+}
+
+.game-desc {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: justify;
+  text-overflow: clip;
+}
+
+.game-img {
+  width: 50%;
+  height: 100px;
+}
+
+.game-img-container {
+  text-align: center;
+}
+
+.game {
+  min-height: 350px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
